@@ -1,12 +1,18 @@
 
 
+import Header from "./Header"
+import Footer from "./footer"
 
 
-function Dashboard () {
+
+
+const Dashboard = ({children}) =>{
 
     return (
          <div>
-            
+            <Header/>
+            {children}
+            <Footer/>
          </div>
     )
 }

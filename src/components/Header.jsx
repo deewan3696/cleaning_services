@@ -1,14 +1,13 @@
-
+import Logo from '../IMAGE/logo.png'
 
 const Header =()=>{
     return(
-        <nav className="flex justify-center gap-[30rem] bg-[blue] pt-[2rem]">
-            <div className="">
-                <h1 className="text-3xl">LOGO</h1>
-                <p>..making cleaning effortless!</p>
+        <nav className="flex justify-center gap-[15rem] bg-[white] text-[black]">
+            <div className="pt-[2rem]">
+               <img className='pb-[2rem]' src={Logo} alt="" />
             </div>
             <div className="flex">
-                <ul className="flex gap-[3rem] pt-[0.5rem] pr-[2rem]">
+                <ul className="flex gap-[8rem] pr-[2rem] pt-[4rem] font-semibold">
                     <li>Home</li>
                     <li>About us</li>
                     <li>Services</li>
@@ -16,7 +15,7 @@ const Header =()=>{
                    
                 </ul>
                 <div className="">
-                    <button className="bg-[black] text-white w-[10rem] h-[3rem] rounded-xl " >Contact us</button>
+                    <button className="bg-[black] text-white w-[10rem] h-[3rem] rounded-xl mt-[3.5rem]" >Contact us</button>
                 </div>
             </div>
         </nav>

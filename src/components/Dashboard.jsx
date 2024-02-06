@@ -1,9 +1,7 @@
 
 
-import Header from "./Header"
-import Footer from "./footer"
-
-
+import Header from "./Header.jsx"
+import Footer from "./Footer.jsx"
 
 
 const Dashboard = ({children}) =>{
@@ -16,16 +14,6 @@ const Dashboard = ({children}) =>{
          </div>
     )
 }
-
-
-
-
-
-
-
-
-
-
 
 
 export default Dashboard

@@ -1,11 +1,11 @@
-import MiddleSection from "./MiddleSection"
+import LowerSection from "./LowerSection"
 import UpperSection from "./UpperSection"
 
 const Homepage = () => {
   return (
     <div>
        <UpperSection/>
-       <MiddleSection/> 
+       <LowerSection/> 
     </div>
   )
 }

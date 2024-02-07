@@ -16,7 +16,7 @@ module.exports = {
         // image26: "url('/src/assets/images/image 26.png')",
         // image23: "url('/src/assets/images/image 23.png')",
         // image28: "url('/src/assets/images/image 28.png')",
-        Vector5: "url('/src/assets/images/Vector 5.png')",
+        // Vector5: "url('/src/assets/images/Vector 5.png')",
         Vector7: "url('/src/assets/images/Vector 7.png')",
       }
     },

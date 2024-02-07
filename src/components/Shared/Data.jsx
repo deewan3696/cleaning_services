@@ -7,6 +7,14 @@ import image26 from '../../assets/images/image 26.png'
 import image23 from '../../assets/images/image 23.png'
 import image28 from '../../assets/images/image 28.png'
 
+
+
+export const boxDetails = [
+    {
+        
+    }
+]
+
 export const details = [
     {
         // id: 1,
